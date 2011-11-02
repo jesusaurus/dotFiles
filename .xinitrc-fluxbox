@@ -1,0 +1,6 @@
+setxkbmap dvorak &
+conky &
+nitrogen --restore &
+tilda &
+
+exec ck-launch-session startfluxbox

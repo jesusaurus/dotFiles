@@ -1,0 +1,12 @@
+defutf8 on
+autodetach on
+startup_message off
+hardcopydir ~/.screen
+hardstatus on
+hardstatus alwayslastline
+hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %y:%m:%d:%{W}%c:%s %{g}]'
+nethack on
+zombie kr
+
+screen
+select 0

@@ -1,0 +1,5 @@
+alias aoeu="setxkbmap us"
+alias asdf="setxkbmap dvorak"
+
+alias ls="ls -ahF"
+alias ssh="ssh -Y"

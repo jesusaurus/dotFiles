@@ -1,0 +1,1 @@
+/home/caoboi/codebase/go/misc/vim/syntax/go.vim

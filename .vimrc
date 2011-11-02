@@ -1,0 +1,11 @@
+syntax on
+set number
+set softtabstop=4
+set shiftwidth=4
+set nocompatible
+set autoindent
+set smartindent
+set nowrap
+set vb
+set background=dark
+colorscheme solarized

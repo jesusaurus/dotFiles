@@ -1,0 +1,20 @@
+defutf8 on
+autodetach on
+startup_message off
+hardcopydir ~/.screen
+hardstatus on
+hardstatus alwayslastline
+hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %y:%m:%d:%{W}%c:%s %{g}]'
+nethack on
+
+screen -t IRC ssh -t shell.cat screen -DRUAa
+screen -t "The Verse"  ssh -t -o ForwardAgent=yes firefly ssh -t miranda screen -DRUAa
+screen -t ɠɔθm ssh -t jesusaurus@gotham screen -DRUAa
+screen -t School ssh -t kjharke@chandra #screen -DRUAa
+#screen -t quad ssh -t -o ForwardAgent=yes caoboi@ruby.cat.pdx.edu ssh -t -o ForwardAgent=yes localhost -p 31337
+#screen -t KRaD ssh -t yuvwah@krad-ssh screen -DRUAa
+screen -t here su -
+screen -t mplayer
+screen
+select 0
+zombie kr

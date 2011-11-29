@@ -7,3 +7,4 @@ set autoindent
 set smartindent
 set nowrap
 set vb
+colorscheme solarized

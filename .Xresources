@@ -1,0 +1,4 @@
+*background: black
+*foreground: white
+*saveLines: 10000
+Konsole.urlLauncher: chromium

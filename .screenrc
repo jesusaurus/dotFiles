@@ -1,4 +1,4 @@
-defscrollback 5000
+defscrollback 10000
 defutf8 on
 autodetach on
 startup_message off
@@ -8,10 +8,10 @@ hardstatus alwayslastline
 hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %y:%m:%d:%{W}%c:%s %{g}]'
 zombie kr
 
-screen -t irc ssh -t shell screen -DRUAa
-screen -t cat ssh -t shell ssh -t miranda.cat.pdx.edu screen -DRUAa
+screen -t irc ssh -t shell.cat screen -DRUAa
+screen -t cat ssh -t shell.cat ssh -t miranda.cat.pdx.edu screen -DRUAa
 screen -t school ssh -t csland #screen -DRUAa
-screen -t powah sudo -i
+screen -t powah su -
 screen -t music
 screen
 select 0

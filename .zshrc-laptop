@@ -12,5 +12,8 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
+PROMPT=":: %D %* %n@%m %~ ::
+%#"
+
 source ~/.envvars
 source ~/.aliases

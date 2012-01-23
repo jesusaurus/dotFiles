@@ -1,0 +1,9 @@
+How to use this repo:
+
+The files in this directory should be cloned into $HOME/.files
+or someplace similar.  Hardlinks should be made between these
+files and their counterparts in $HOME.
+
+Each machine using this repo should have its own branch.  There
+is a special branch 'base' which is the basis for the other
+branches.

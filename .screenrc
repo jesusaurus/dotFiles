@@ -8,11 +8,12 @@ hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u
 nethack on
 
 screen -t IRC ssh -t shell.cat screen -DRUAa
-screen -t "The Verse"  ssh -t -o ForwardAgent=yes firefly ssh -t miranda screen -DRUAa
-screen -t ɠɔθm ssh -t jesusaurus@gotham screen -DRUAa
-screen -t School ssh -t kjharke@chandra #screen -DRUAa
+screen -t "the Verse"  ssh -t -o ForwardAgent=yes shell.cat ssh -t miranda screen -DRUAa
+#screen -t ɠɔθm ssh -t jesusaurus@gotham screen -DRUAa
+screen -t gothm ssh -t jesusaurus@gotham screen -DRUAa
+screen -t School ssh -t kjharke@chandra /opt/csw/bin/screen -DRUAa
 #screen -t quad ssh -t -o ForwardAgent=yes caoboi@ruby.cat.pdx.edu ssh -t -o ForwardAgent=yes localhost -p 31337
-#screen -t KRaD ssh -t yuvwah@krad-ssh screen -DRUAa
+screen -t KRaD ssh -t krad screen -DRUAa
 screen -t here su -
 screen -t mplayer
 screen

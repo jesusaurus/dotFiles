@@ -1,4 +1,5 @@
 defutf8 on
+defscrollback 8192
 autodetach on
 startup_message off
 hardcopydir ~/.screen

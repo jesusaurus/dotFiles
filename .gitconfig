@@ -1,5 +1,34 @@
 [user]
-	name = Jesusaurus
-	email = jesusaurus@inbox.com
+    name = Jesusaurus
+    email = jesusaurus@inbox.com
 [core]
-	editor = vim
+    editor = vim
+[color]
+    ui = true
+    diff = auto
+    log = auto
+    commit = auto
+    branch = auto
+    status = auto
+    interactive = auto
+
+[color]
+    branch = auto
+    diff = auto
+    status = auto
+
+[color "branch"]
+    current = yellow reverse
+    local = yellow
+    remote = green
+
+[color "diff"]
+    meta = yellow bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
+
+[color "status"]
+    added = yellow
+    changed = green
+    untracked = cyan

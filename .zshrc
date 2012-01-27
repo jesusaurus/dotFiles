@@ -9,6 +9,7 @@ bindkey -e
 zstyle :compinstall filename "$HOME/.zshrc"
 
 autoload -Uz compinit
+autoload -U colors && colors
 compinit
 # End of lines added by compinstall
 

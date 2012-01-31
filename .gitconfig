@@ -1,8 +1,10 @@
 [user]
-    name = Jesusaurus
-    email = jesusaurus@inbox.com
+	name = K Jonathan Harker
+	email = kjharke@cs.pdx.edu
+
 [core]
     editor = vim
+
 [color]
     ui = true
     diff = auto

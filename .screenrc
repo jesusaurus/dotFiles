@@ -9,5 +9,10 @@ hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u
 nethack on
 zombie kr
 
+screen -t irc ssh -t shell.cat screen -DRUAa
+screen -t cat ssh -t shell.cat ssh -t miranda screen -DRUAa
+screen -t school ssh -t csland /opt/csw/bin/screen -DRUAa
+screen -t powah su -
+screen -t music
 screen
 select 0

@@ -1,4 +1,4 @@
-export GOROOT=$HOME/codebase/go
+export GOROOT=$HOME/local/src/go
 export GOBIN=$HOME/local/bin
 export GOOS=linux
 export GOARCH=amd64

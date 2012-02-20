@@ -6,9 +6,10 @@ setopt appendhistory
 bindkey -e
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
-zstyle :compinstall filename '/home/caoboi/.zshrc'
+zstyle :compinstall filename "$HOME/.zshrc"
 
 autoload -Uz compinit
+autoload -U colors && colors
 compinit
 # End of lines added by compinstall
 

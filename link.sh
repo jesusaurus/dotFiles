@@ -7,6 +7,9 @@ fi
 
 files="`find . -path ./.git -prune -o -type f -links 1 -print | grep -v $0`"
 for i in $files ; do
+    if [ ! -d "`dirname $i`" ]; then
+	mkdir -p "`dirname $i`"
+    fi
     ln -f $i ../$i
 done
 

@@ -1,8 +1,10 @@
 [user]
-    name = Jesusaurus
-    email = jesusaurus@inbox.com
+    name = K Jonathan Harker
+    email = jesusaur@cat.pdx.edu
+
 [core]
     editor = vim
+
 [color]
     ui = true
     diff = auto
@@ -11,11 +13,6 @@
     branch = auto
     status = auto
     interactive = auto
-
-[color]
-    branch = auto
-    diff = auto
-    status = auto
 
 [color "branch"]
     current = yellow reverse

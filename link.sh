@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/local/bin/bash
 
 #did you read the source?
 if [ "$1z" != "yesz" ]

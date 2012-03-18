@@ -3,4 +3,4 @@ export GOBIN=$HOME/local/bin
 export GOOS=linux
 export GOARCH=amd64
 
-export PATH=$PATH:$HOME/local/bin
+export PATH=$PATH:$HOME/local/bin:$HOME/.gem/ruby/1.9.1/bin

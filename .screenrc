@@ -13,7 +13,7 @@ hardstatus string "%{.kc}%-w%{.kw}%n*%t%{-}%+w %= | %2` | %2`C | %3`/%4` | %5`% 
 
 defnonblock 1
 blankerprg cmatrix -ab -u2
-idle 3600 blanker
+idle 600 blanker
 
 screen -t stack
 screen -t sand ssh -t sand screen -DRUAa

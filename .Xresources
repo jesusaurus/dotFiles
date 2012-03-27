@@ -1,6 +1,6 @@
 *background: black
 *foreground: white
 *saveLines: 10000
-*.urlLauncher: chromium
+*.urlLauncher: firefox
 *rxvt*.termName: xterm-color
 

@@ -12,8 +12,8 @@ hardstatus alwayslastline
 hardstatus string "%{.kc}%-w%{.kw}%n*%t%{-}%+w %= | %2` | %2`C | %3`/%4` | %5`% | %6`/%7` | %c %d/%m/%Y"
 
 defnonblock 1
-blankerprg rain -d 100
-idle 30 blanker
+blankerprg cmatrix -ab -u2
+idle 3600 blanker
 
 screen -t stack
 screen -t sand ssh -t sand screen -DRUAa

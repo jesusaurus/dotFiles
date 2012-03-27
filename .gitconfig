@@ -32,3 +32,4 @@
     added = yellow
     changed = green
     untracked = cyan
+    branch = white bold

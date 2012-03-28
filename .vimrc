@@ -17,3 +17,5 @@ set sidescroll=10
 
 set background=dark
 colorscheme solarized
+
+nmap  :set wrap!<CR>

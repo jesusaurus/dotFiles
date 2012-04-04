@@ -13,7 +13,7 @@ autoload -U colors && colors
 compinit
 # End of lines added by compinstall
 
-PROMPT="%{$fg[yellow]%}:: %D %* %n@%m %{$fg[white]%}%~%{$reset_color%} %{$fg[yellow]%}::%{$reset_color%}
+PROMPT="%{$fg[red]%}:: %{$fg[yellow]%}%D %* %{$fg[red]%}%n@%m %{$fg[yellow]%}%~ %{$fg[red]%}::%{$reset_color%}
 %# "
 
 source ~/.envvars

@@ -27,6 +27,8 @@ set hidden
 set background=dark
 colorscheme solarized
 
+call pathogen#infect()
+
 let mapleader = "."
 nmap <silent> <leader>w :set wrap!<CR>
 

@@ -15,14 +15,7 @@ defnonblock 1
 blankerprg cmatrix -ab -u2
 idle 3600 blanker
 
-screen -t stack
-screen -t sand ssh -t sand screen -DRUAa
-screen -t gravel ssh -t gravel screen -DRUAa
-screen -t rocks ssh -t rocks screen -DRUAa
-screen -t winds ssh winds
-screen -t research ssh research
-screen -t chat ssh irc
-screen -t local su -
+screen -t operup ssh -t root@localhost 'screen -DRUAa'
 screen -t htop htop
 screen -t zsh
 select 0

@@ -33,4 +33,5 @@ let mapleader = "."
 nmap <silent> <leader>w :set wrap!<CR>
 
 set listchars=tab:»·,trail:·
+set list
 nmap <silent> <leader>s :set nolist!<CR>

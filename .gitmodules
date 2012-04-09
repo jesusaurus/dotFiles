@@ -1,0 +1,7 @@
+[submodule ".vim/bundle/fugitive"]
+	path = .vim/bundle/fugitive
+	url = git://github.com/tpope/vim-fugitive.git
+
+[submodule ".vim/bundle/puppet"]
+	path = .vim/bundle/puppet
+	url = git://github.com/rodjek/vim-puppet.git

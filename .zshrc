@@ -13,6 +13,7 @@ autoload -Uz compinit
 autoload -U colors && colors
 compinit
 # End of lines added by compinstall
+export PROMPT=$'<< %{\e[0;31m%}%m %{\e[0;33m%}%n %{\e[0;32m%}%* %{\e[0;36m%}%~ %{\e[0m%}>>\n$'
 
 
 source ~/.envvars

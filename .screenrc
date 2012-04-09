@@ -3,11 +3,21 @@ defscrollback 8192
 autodetach on
 startup_message off
 hardcopydir ~/.screen
+password ZKRSWfTvMp2QU
+
 hardstatus on
 hardstatus alwayslastline
-hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %y:%m:%d:%{W}%c:%s %{g}]'
+hardstatus string "%{= Kd} %=  %-Lw%{= wk}%n%f %t %{= Kd}%+Lw %=  %{-}"
 nethack on
 zombie kr
 
-screen
-select 0
+screen -t ROOT su -
+screen -t ROOT su -
+screen -t dev
+screen -t files
+screen -t blades
+screen -t logwatch ssh loghost
+screen -t netdb
+screen -t geppetto
+screen -t zsh
+select 2

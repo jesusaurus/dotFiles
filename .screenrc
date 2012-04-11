@@ -2,6 +2,8 @@ defutf8 on
 defscrollback 8192
 autodetach on
 startup_message off
+logfile "~/.screen/log/%n"
+logtstamp on
 hardcopydir ~/.screen
 hardstatus on
 hardstatus alwayslastline
@@ -9,5 +11,8 @@ hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u
 nethack on
 zombie kr
 
-screen
+screen -t irc ssh -t shell.cat.pdx.edu screen -DRUAa
+screen -t "the verse" ssh -t miranda screen -DRUAa
+screen -t student ssh -t kjharke@chandra /opt/csw/bin/screen -DRUAa
+screen -t hushaboom ssh -t caoboi@rita screen -DRUAa
 select 0

@@ -9,7 +9,7 @@ nethack on
 hardcopydir ~/.screen
 hardstatus on
 hardstatus alwayslastline
-hardstatus string "%{.kc}%-w%{.kw}%n*%t%{-}%+w %= | %2` | %2`C | %3`/%4` | %5`% | %6`/%7` | %c %d/%m/%Y"
+hardstatus string "%{.kc}%-Lw%{.kw}%n%f%t%{-}%+Lw %L= %{.kg}| %H | %l | %-18>%Y-%m-%d %c%-0="
 
 defnonblock 1
 blankerprg cmatrix -ab -u2

@@ -3,7 +3,10 @@ export GOBIN=$HOME/local/bin
 export GOOS=linux
 export GOARCH=amd64
 
+export PATH=${PATH}:/cat/bin:$HOME/scripts/:/u/kjharke/bin
+export MANPATH="`manpath --global`:/cat/man"
+export PAGER=less
+export EDITOR=vim
+
 export PATH=$PATH:$HOME/local/bin
 export LANG="en_US.UTF-8"
-
-export PROMPT=$'<<%{\e[0;31m%}%m %{\e[0;33m%}%n %{\e[0;32m%}%* %{\e[0;36m%}%~ %{\e[0m%}>>\n$'

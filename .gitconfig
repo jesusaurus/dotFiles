@@ -5,6 +5,10 @@
 [core]
     editor = vim
 
+[alias]
+    sub = !git submodule sync && git submodule update
+    hub = !git submodule foreach 'git push github master && git push pdxcat master || true'
+
 [color]
     ui = true
     diff = auto
@@ -15,17 +19,18 @@
     interactive = auto
 
 [color "branch"]
-    current = yellow reverse
-    local = yellow
-    remote = green
+    current = green reverse
+    local = cyan
+    remote = blue
 
 [color "diff"]
-    meta = yellow bold
-    frag = magenta bold
-    old = red bold
-    new = green bold
+    meta = white bold
+    frag = yellow bold
+    old = red
+    new = green
 
 [color "status"]
-    added = yellow
-    changed = green
-    untracked = cyan
+    added = green
+    changed = yellow
+    untracked = blue
+    branch = white bold

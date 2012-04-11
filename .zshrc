@@ -9,9 +9,14 @@ bindkey -e
 zstyle :compinstall filename "$HOME/.zshrc"
 
 autoload -Uz compinit
+autoload -U promptinit && promptinit
 autoload -U colors && colors
 compinit
 # End of lines added by compinstall
+
+#Prompt variable is zsh-specific
+export PROMPT="%{$fg_bold[white]%}<( %n@%m:%~ )>
+%#%{$reset_color%}"
 
 source ~/.envvars
 source ~/.aliases

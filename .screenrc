@@ -12,7 +12,6 @@ hardstatus alwayslastline
 hardstatus string "%{.kc}%-Lw%{.kw}%n%f%t%{-}%+Lw %L= %{.kg}| %H | %l | %-18>%Y-%m-%d %c%-0="
 
 defnonblock 1
-blankerprg cmatrix -ab -u2
 idle 3600 blanker
 
 screen -t operup ssh -t root@localhost 'screen -DRUAa'

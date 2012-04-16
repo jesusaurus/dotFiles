@@ -1,0 +1,8 @@
+clear Lock
+clear Control
+keycode   9 = Caps_Lock NoSymbol Caps_Lock NoSymbol Caps_Lock
+keycode  37 = Escape NoSymbol Escape NoSymbol Escape
+keycode  66 = Control_L NoSymbol Control_L NoSymbol Control_L
+keycode 135 = Multi_key Multi_key Multi_key Multi_key
+add Lock    = Caps_Lock
+add Control = Control_L Control_R

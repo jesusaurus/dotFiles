@@ -1,5 +1,5 @@
 alias aoeu="setxkbmap us"
-alias asdf="setxkbmap dvorak"
+alias asdf="setxkbmap us -variant dvorak -option compose:menu; xmodmap ~/.Xmodmap"
 
-alias ls="ls -AhFG --color=auto"
+alias ls="ls -AhF --color=auto"
 alias ssh="ssh -XY"

@@ -4,5 +4,5 @@
 
 PS1='[\u@\h \W]\$ '
 
-source .aliases
-source .envvars
+source $HOME/.aliases
+source $HOME/.envvars

@@ -7,7 +7,8 @@
 
 [alias]
     sub = !git submodule sync && git submodule update
-    hub = !git submodule foreach 'git push github master && git push pdxcat master || true'
+    hub = !git submodule foreach 'git push pdxcat master || true'
+    sync = !git fetch && git diff origin/master
 
 [color]
     ui = true

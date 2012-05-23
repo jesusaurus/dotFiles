@@ -1,5 +1,3 @@
-alias aoeu="setxkbmap us"
-alias asdf="setxkbmap dvorak"
-
 alias ls="ls -AhFG"
 alias ssh="ssh -XY"
+alias diff="diff -U3"

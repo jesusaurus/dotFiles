@@ -12,7 +12,7 @@ nethack on
 zombie kr
 
 screen -t irc ssh -t shell.cat.pdx.edu screen -DRUAa
-screen -t "the verse" ssh -t miranda screen -DRUAa
+screen -t "the verse" ssh -t shell.cat ssh -t shadow screen -DRUAa
 screen -t student ssh -t kjharke@chandra /opt/csw/bin/screen -DRUAa
 screen -t hushaboom ssh -t caoboi@rita screen -DRUAa
 screen

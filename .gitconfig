@@ -14,23 +14,19 @@
     status = auto
     interactive = auto
 
-[color]
-    branch = auto
-    diff = auto
-    status = auto
-
 [color "branch"]
-    current = yellow reverse
-    local = yellow
-    remote = green
+    current = green reverse
+    local = cyan
+    remote = blue
 
 [color "diff"]
-    meta = yellow bold
-    frag = magenta bold
-    old = red bold
-    new = green bold
+    meta = white bold
+    frag = yellow bold
+    old = red
+    new = green
 
 [color "status"]
-    added = yellow
-    changed = green
-    untracked = cyan
+    added = green
+    changed = yellow
+    untracked = blue
+    branch = white bold

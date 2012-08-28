@@ -27,6 +27,7 @@ set hidden
 set background=dark
 colorscheme solarized
 
+runtime bundle/pathogen/autoload/pathogen.vim
 call pathogen#infect()
 
 let mapleader = "."

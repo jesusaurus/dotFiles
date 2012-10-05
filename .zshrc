@@ -15,3 +15,4 @@ compinit
 
 source ~/.envvars
 source ~/.aliases
+eval `perl -I ~/local/perl/lib/perl5 -Mlocal::lib`

@@ -74,3 +74,4 @@ fi
 
 source .aliases
 source .envvars
+eval `perl -I ~/local/perl/lib/perl5 -Mlocal::lib`

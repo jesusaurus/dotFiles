@@ -4,3 +4,4 @@ export GOOS=linux
 export GOARCH=amd64
 
 export PATH=$PATH:$HOME/local/bin:$HOME/local/perl/bin
+export PYTHONPATH="$HOME/local/lib/python2.7/site-packages/"

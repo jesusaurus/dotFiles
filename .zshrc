@@ -13,6 +13,6 @@ autoload -U colors && colors
 compinit
 # End of lines added by compinstall
 
-source ~/.envvars
-source ~/.aliases
+source $HOME/.envvars
+source $HOME/.aliases
 eval `perl -I ~/local/perl/lib/perl5 -Mlocal::lib`

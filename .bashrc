@@ -72,6 +72,6 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
-source .aliases
-source .envvars
+source $HOME/.aliases
+source $HOME/.envvars
 eval `perl -I ~/local/perl/lib/perl5 -Mlocal::lib`

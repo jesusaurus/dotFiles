@@ -13,6 +13,8 @@ autoload -U colors && colors
 compinit
 # End of lines added by compinstall
 
+PROMPT="%{$fg[yellow]%}::%{$reset_color%} %{$fg[red]%}%D %*%{$reset_color%} %{$fg[blue]%}%n@%m%{$reset_color%} %{$fg[green]%}%~%{$reset_color%} %{$fg[yellow]%}::%{$reset_color%}
+%# "
 source $HOME/.envvars
 source $HOME/.aliases
 eval `perl -I ~/local/perl/lib/perl5 -Mlocal::lib`

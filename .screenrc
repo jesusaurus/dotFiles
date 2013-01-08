@@ -5,12 +5,13 @@ startup_message off
 hardcopydir ~/.screen
 hardstatus on
 hardstatus alwayslastline
-hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %y:%m:%d:%{W}%c:%s %{g}]'
+hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%? %{r}(%{W}%n%f*%t%?[%u]%?%{r}) %{w}%?%+Lw%?%= %{g}][%{B} %y:%m:%d:%{W}%c:%s %{g}]'
 nethack on
 zombie 
 
 screen -t Server ssh -D 3128 -t root@15.185.107.118 "screen -DRUAa"
 screen -t local
-screen -t chat ssh -D 8443 -t shell.cat "screen -DRUAa"
+screen -t chat ssh -D 8443 -t jesusaurus@15.185.107.203 "screen -DRUAa"
+screen -t sudo sudo -i
 screen
 select 0

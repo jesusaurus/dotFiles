@@ -10,7 +10,7 @@ nethack on
 zombie 
 
 screen -t Server ssh -D 3128 -t root@15.185.107.118 "screen -DRUAa"
-screen -t local
+screen -t local screen -m -c $HOME/.screenrc.local
 screen -t chat ssh -D 8443 -t jesusaurus@15.185.107.203 "screen -DRUAa"
 screen -t sudo sudo -i
 screen

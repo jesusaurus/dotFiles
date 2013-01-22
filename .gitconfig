@@ -30,3 +30,6 @@
     changed = yellow
     untracked = blue
     branch = white bold
+
+[gitreview]
+    username = jesusaurus

@@ -36,9 +36,7 @@ nmap <silent> <leader>w :set wrap!<CR>
 set listchars=tab:»·,trail:·
 nmap <silent> <leader>s :set nolist!<CR>
 
-highlight OverLength ctermbg=red ctermfg=white guibg=#592929
-match OverLength /\%80v.\+/
+set colorcolumn=80
 
 highlight ExtraWhitespace ctermbg=red ctermfg=white guibg=#603030
-au InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
-au InsertLeave * match ExtraWhitespace /\s\+$/
+match ExtraWhitespace /\s\+$/

@@ -37,6 +37,7 @@ set listchars=tab:»·,trail:·
 nmap <silent> <leader>s :set nolist!<CR>
 
 set colorcolumn=80
+highlight ColorColumn ctermbg=DarkRed ctermfg=Black
 
 highlight ExtraWhitespace ctermbg=red ctermfg=white guibg=#603030
 match ExtraWhitespace /\s\+$/

@@ -2,6 +2,7 @@ defutf8 on
 defscrollback 8192
 autodetach on
 startup_message off
+sessionname top
 hardcopydir ~/.screen
 hardstatus on
 hardstatus alwayslastline
@@ -9,9 +10,10 @@ hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%? %{r}(%{W}%n%f*%t%?[%
 nethack on
 zombie 
 
-screen -t Server ssh -D 3128 -t root@15.185.107.118 "screen -DRUAa"
-screen -t local screen -m -c $HOME/.screenrc.local
-screen -t chat ssh -D 8443 -t jesusaurus@15.185.107.203 "screen -DRUAa"
+screen -t Server ssh -t root@15.185.107.118 "screen -DRUAa"
+screen -t local screen -S local -m -c $HOME/.screenrc.local
+screen -t chat ssh -t jesusaurus@15.185.107.203 "screen -DRUAa"
 screen -t sudo sudo -i
+screen -t clouds screen -S clouds -m -c $HOME/.screenrc.local
 screen
 select 0

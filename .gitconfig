@@ -28,7 +28,7 @@
 [color "status"]
     added = green
     changed = yellow
-    untracked = blue
+    untracked = red
     branch = white bold
 
 [gitreview]

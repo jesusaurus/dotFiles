@@ -25,7 +25,7 @@ set wildmode=list:longest
 
 set hidden
 set background=dark
-colorscheme default
+colorscheme desert
 
 runtime bundle/pathogen/autoload/pathogen.vim
 call pathogen#infect()

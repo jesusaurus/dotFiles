@@ -11,13 +11,8 @@ nethack on
 zombie 
 
 screen -t Server ssh -t root@15.185.107.118 "screen -DRUAa"
-screen -t local screen -S local -m -c $HOME/.screenrc.local
 screen -t chat ssh -t jesusaurus@15.185.107.203 "screen -DRUAa"
 screen -t sudo sudo -i
-screen -t clouds screen -S clouds -m -c $HOME/.screenrc.local
-screen -t salt screen -S salt -m -c $HOME/.screenrc.local
-screen -t logstash screen -S logstash -m -c $HOME/.screenrc.local
-screen -t jankins screen -S jankins -m -c $HOME/.screenrc.local
 screen
 screen
 select 0
